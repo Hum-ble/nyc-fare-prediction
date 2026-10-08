@@ -609,7 +609,7 @@ else:
     # Display compact chart
     st.image(
         plot_bytes,
-        width="stretch"
+        width="900"
     )
 
     plt.close(fig)
