@@ -1,0 +1,266 @@
+LocationID,Borough,Zone,service_zone,zone_label,zone_display,pickup_supported,dropoff_supported
+1,EWR,Newark Airport,EWR,Newark Airport - EWR,Newark Airport,False,True
+2,Queens,Jamaica Bay,Boro Zone,Jamaica Bay - Queens,Jamaica Bay,True,True
+3,Bronx,Allerton/Pelham Gardens,Boro Zone,Allerton/Pelham Gardens - Bronx,Allerton/Pelham Gardens,True,True
+4,Manhattan,Alphabet City,Yellow Zone,Alphabet City - Manhattan,Alphabet City,True,True
+5,Staten Island,Arden Heights,Boro Zone,Arden Heights - Staten Island,Arden Heights,True,True
+6,Staten Island,Arrochar/Fort Wadsworth,Boro Zone,Arrochar/Fort Wadsworth - Staten Island,Arrochar/Fort Wadsworth,True,True
+7,Queens,Astoria,Boro Zone,Astoria - Queens,Astoria,True,True
+8,Queens,Astoria Park,Boro Zone,Astoria Park - Queens,Astoria Park,True,True
+9,Queens,Auburndale,Boro Zone,Auburndale - Queens,Auburndale,True,True
+10,Queens,Baisley Park,Boro Zone,Baisley Park - Queens,Baisley Park,True,True
+11,Brooklyn,Bath Beach,Boro Zone,Bath Beach - Brooklyn,Bath Beach,True,True
+12,Manhattan,Battery Park,Yellow Zone,Battery Park - Manhattan,Battery Park,True,True
+13,Manhattan,Battery Park City,Yellow Zone,Battery Park City - Manhattan,Battery Park City,True,True
+14,Brooklyn,Bay Ridge,Boro Zone,Bay Ridge - Brooklyn,Bay Ridge,True,True
+15,Queens,Bay Terrace/Fort Totten,Boro Zone,Bay Terrace/Fort Totten - Queens,Bay Terrace/Fort Totten,True,True
+16,Queens,Bayside,Boro Zone,Bayside - Queens,Bayside,True,True
+17,Brooklyn,Bedford,Boro Zone,Bedford - Brooklyn,Bedford,True,True
+18,Bronx,Bedford Park,Boro Zone,Bedford Park - Bronx,Bedford Park,True,True
+19,Queens,Bellerose,Boro Zone,Bellerose - Queens,Bellerose,True,True
+20,Bronx,Belmont,Boro Zone,Belmont - Bronx,Belmont,True,True
+21,Brooklyn,Bensonhurst East,Boro Zone,Bensonhurst East - Brooklyn,Bensonhurst East,True,True
+22,Brooklyn,Bensonhurst West,Boro Zone,Bensonhurst West - Brooklyn,Bensonhurst West,True,True
+23,Staten Island,Bloomfield/Emerson Hill,Boro Zone,Bloomfield/Emerson Hill - Staten Island,Bloomfield/Emerson Hill,True,True
+24,Manhattan,Bloomingdale,Yellow Zone,Bloomingdale - Manhattan,Bloomingdale,True,True
+25,Brooklyn,Boerum Hill,Boro Zone,Boerum Hill - Brooklyn,Boerum Hill,True,True
+26,Brooklyn,Borough Park,Boro Zone,Borough Park - Brooklyn,Borough Park,True,True
+27,Queens,Breezy Point/Fort Tilden/Riis Beach,Boro Zone,Breezy Point/Fort Tilden/Riis Beach - Queens,Breezy Point/Fort Tilden/Riis Beach,True,True
+28,Queens,Briarwood/Jamaica Hills,Boro Zone,Briarwood/Jamaica Hills - Queens,Briarwood/Jamaica Hills,True,True
+29,Brooklyn,Brighton Beach,Boro Zone,Brighton Beach - Brooklyn,Brighton Beach,True,True
+30,Queens,Broad Channel,Boro Zone,Broad Channel - Queens,Broad Channel,True,True
+31,Bronx,Bronx Park,Boro Zone,Bronx Park - Bronx,Bronx Park,True,True
+32,Bronx,Bronxdale,Boro Zone,Bronxdale - Bronx,Bronxdale,True,True
+33,Brooklyn,Brooklyn Heights,Boro Zone,Brooklyn Heights - Brooklyn,Brooklyn Heights,True,True
+34,Brooklyn,Brooklyn Navy Yard,Boro Zone,Brooklyn Navy Yard - Brooklyn,Brooklyn Navy Yard,True,True
+35,Brooklyn,Brownsville,Boro Zone,Brownsville - Brooklyn,Brownsville,True,True
+36,Brooklyn,Bushwick North,Boro Zone,Bushwick North - Brooklyn,Bushwick North,True,True
+37,Brooklyn,Bushwick South,Boro Zone,Bushwick South - Brooklyn,Bushwick South,True,True
+38,Queens,Cambria Heights,Boro Zone,Cambria Heights - Queens,Cambria Heights,True,True
+39,Brooklyn,Canarsie,Boro Zone,Canarsie - Brooklyn,Canarsie,True,True
+40,Brooklyn,Carroll Gardens,Boro Zone,Carroll Gardens - Brooklyn,Carroll Gardens,True,True
+41,Manhattan,Central Harlem,Boro Zone,Central Harlem - Manhattan,Central Harlem,True,True
+42,Manhattan,Central Harlem North,Boro Zone,Central Harlem North - Manhattan,Central Harlem North,True,True
+43,Manhattan,Central Park,Yellow Zone,Central Park - Manhattan,Central Park,True,True
+44,Staten Island,Charleston/Tottenville,Boro Zone,Charleston/Tottenville - Staten Island,Charleston/Tottenville,True,True
+45,Manhattan,Chinatown,Yellow Zone,Chinatown - Manhattan,Chinatown,True,True
+46,Bronx,City Island,Boro Zone,City Island - Bronx,City Island,True,True
+47,Bronx,Claremont/Bathgate,Boro Zone,Claremont/Bathgate - Bronx,Claremont/Bathgate,True,True
+48,Manhattan,Clinton East,Yellow Zone,Clinton East - Manhattan,Clinton East,True,True
+49,Brooklyn,Clinton Hill,Boro Zone,Clinton Hill - Brooklyn,Clinton Hill,True,True
+50,Manhattan,Clinton West,Yellow Zone,Clinton West - Manhattan,Clinton West,True,True
+51,Bronx,Co-Op City,Boro Zone,Co-Op City - Bronx,Co-Op City,True,True
+52,Brooklyn,Cobble Hill,Boro Zone,Cobble Hill - Brooklyn,Cobble Hill,True,True
+53,Queens,College Point,Boro Zone,College Point - Queens,College Point,True,True
+54,Brooklyn,Columbia Street,Boro Zone,Columbia Street - Brooklyn,Columbia Street,True,True
+55,Brooklyn,Coney Island,Boro Zone,Coney Island - Brooklyn,Coney Island,True,True
+56,Queens,Corona,Boro Zone,Corona - Queens (ID 56),Corona (ID 56),True,True
+57,Queens,Corona,Boro Zone,Corona - Queens (ID 57),Corona (ID 57),True,True
+58,Bronx,Country Club,Boro Zone,Country Club - Bronx,Country Club,True,True
+59,Bronx,Crotona Park,Boro Zone,Crotona Park - Bronx,Crotona Park,True,True
+60,Bronx,Crotona Park East,Boro Zone,Crotona Park East - Bronx,Crotona Park East,True,True
+61,Brooklyn,Crown Heights North,Boro Zone,Crown Heights North - Brooklyn,Crown Heights North,True,True
+62,Brooklyn,Crown Heights South,Boro Zone,Crown Heights South - Brooklyn,Crown Heights South,True,True
+63,Brooklyn,Cypress Hills,Boro Zone,Cypress Hills - Brooklyn,Cypress Hills,True,True
+64,Queens,Douglaston,Boro Zone,Douglaston - Queens,Douglaston,True,True
+65,Brooklyn,Downtown Brooklyn/MetroTech,Boro Zone,Downtown Brooklyn/MetroTech - Brooklyn,Downtown Brooklyn/MetroTech,True,True
+66,Brooklyn,DUMBO/Vinegar Hill,Boro Zone,DUMBO/Vinegar Hill - Brooklyn,DUMBO/Vinegar Hill,True,True
+67,Brooklyn,Dyker Heights,Boro Zone,Dyker Heights - Brooklyn,Dyker Heights,True,True
+68,Manhattan,East Chelsea,Yellow Zone,East Chelsea - Manhattan,East Chelsea,True,True
+69,Bronx,East Concourse/Concourse Village,Boro Zone,East Concourse/Concourse Village - Bronx,East Concourse/Concourse Village,True,True
+70,Queens,East Elmhurst,Boro Zone,East Elmhurst - Queens,East Elmhurst,True,True
+71,Brooklyn,East Flatbush/Farragut,Boro Zone,East Flatbush/Farragut - Brooklyn,East Flatbush/Farragut,True,True
+72,Brooklyn,East Flatbush/Remsen Village,Boro Zone,East Flatbush/Remsen Village - Brooklyn,East Flatbush/Remsen Village,True,True
+73,Queens,East Flushing,Boro Zone,East Flushing - Queens,East Flushing,True,True
+74,Manhattan,East Harlem North,Boro Zone,East Harlem North - Manhattan,East Harlem North,True,True
+75,Manhattan,East Harlem South,Boro Zone,East Harlem South - Manhattan,East Harlem South,True,True
+76,Brooklyn,East New York,Boro Zone,East New York - Brooklyn,East New York,True,True
+77,Brooklyn,East New York/Pennsylvania Avenue,Boro Zone,East New York/Pennsylvania Avenue - Brooklyn,East New York/Pennsylvania Avenue,True,True
+78,Bronx,East Tremont,Boro Zone,East Tremont - Bronx,East Tremont,True,True
+79,Manhattan,East Village,Yellow Zone,East Village - Manhattan,East Village,True,True
+80,Brooklyn,East Williamsburg,Boro Zone,East Williamsburg - Brooklyn,East Williamsburg,True,True
+81,Bronx,Eastchester,Boro Zone,Eastchester - Bronx,Eastchester,True,True
+82,Queens,Elmhurst,Boro Zone,Elmhurst - Queens,Elmhurst,True,True
+83,Queens,Elmhurst/Maspeth,Boro Zone,Elmhurst/Maspeth - Queens,Elmhurst/Maspeth,True,True
+84,Staten Island,Eltingville/Annadale/Prince's Bay,Boro Zone,Eltingville/Annadale/Prince's Bay - Staten Island,Eltingville/Annadale/Prince's Bay,True,True
+85,Brooklyn,Erasmus,Boro Zone,Erasmus - Brooklyn,Erasmus,True,True
+86,Queens,Far Rockaway,Boro Zone,Far Rockaway - Queens,Far Rockaway,True,True
+87,Manhattan,Financial District North,Yellow Zone,Financial District North - Manhattan,Financial District North,True,True
+88,Manhattan,Financial District South,Yellow Zone,Financial District South - Manhattan,Financial District South,True,True
+89,Brooklyn,Flatbush/Ditmas Park,Boro Zone,Flatbush/Ditmas Park - Brooklyn,Flatbush/Ditmas Park,True,True
+90,Manhattan,Flatiron,Yellow Zone,Flatiron - Manhattan,Flatiron,True,True
+91,Brooklyn,Flatlands,Boro Zone,Flatlands - Brooklyn,Flatlands,True,True
+92,Queens,Flushing,Boro Zone,Flushing - Queens,Flushing,True,True
+93,Queens,Flushing Meadows-Corona Park,Boro Zone,Flushing Meadows-Corona Park - Queens,Flushing Meadows-Corona Park,True,True
+94,Bronx,Fordham South,Boro Zone,Fordham South - Bronx,Fordham South,True,True
+95,Queens,Forest Hills,Boro Zone,Forest Hills - Queens,Forest Hills,True,True
+96,Queens,Forest Park/Highland Park,Boro Zone,Forest Park/Highland Park - Queens,Forest Park/Highland Park,True,True
+97,Brooklyn,Fort Greene,Boro Zone,Fort Greene - Brooklyn,Fort Greene,True,True
+98,Queens,Fresh Meadows,Boro Zone,Fresh Meadows - Queens,Fresh Meadows,True,True
+99,Staten Island,Freshkills Park,Boro Zone,Freshkills Park - Staten Island,Freshkills Park,True,True
+100,Manhattan,Garment District,Yellow Zone,Garment District - Manhattan,Garment District,True,True
+101,Queens,Glen Oaks,Boro Zone,Glen Oaks - Queens,Glen Oaks,True,True
+102,Queens,Glendale,Boro Zone,Glendale - Queens,Glendale,True,True
+103,Manhattan,Governor's Island/Ellis Island/Liberty Island,Yellow Zone,Governor's Island/Ellis Island/Liberty Island - Manhattan (ID 103),Governor's Island/Ellis Island/Liberty Island (ID 103),False,False
+104,Manhattan,Governor's Island/Ellis Island/Liberty Island,Yellow Zone,Governor's Island/Ellis Island/Liberty Island - Manhattan (ID 104),Governor's Island/Ellis Island/Liberty Island (ID 104),False,False
+105,Manhattan,Governor's Island/Ellis Island/Liberty Island,Yellow Zone,Governor's Island/Ellis Island/Liberty Island - Manhattan (ID 105),Governor's Island/Ellis Island/Liberty Island (ID 105),False,True
+106,Brooklyn,Gowanus,Boro Zone,Gowanus - Brooklyn,Gowanus,True,True
+107,Manhattan,Gramercy,Yellow Zone,Gramercy - Manhattan,Gramercy,True,True
+108,Brooklyn,Gravesend,Boro Zone,Gravesend - Brooklyn,Gravesend,True,True
+109,Staten Island,Great Kills,Boro Zone,Great Kills - Staten Island,Great Kills,True,True
+110,Staten Island,Great Kills Park,Boro Zone,Great Kills Park - Staten Island,Great Kills Park,True,True
+111,Brooklyn,Green-Wood Cemetery,Boro Zone,Green-Wood Cemetery - Brooklyn,Green-Wood Cemetery,True,True
+112,Brooklyn,Greenpoint,Boro Zone,Greenpoint - Brooklyn,Greenpoint,True,True
+113,Manhattan,Greenwich Village North,Yellow Zone,Greenwich Village North - Manhattan,Greenwich Village North,True,True
+114,Manhattan,Greenwich Village South,Yellow Zone,Greenwich Village South - Manhattan,Greenwich Village South,True,True
+115,Staten Island,Grymes Hill/Clifton,Boro Zone,Grymes Hill/Clifton - Staten Island,Grymes Hill/Clifton,True,True
+116,Manhattan,Hamilton Heights,Boro Zone,Hamilton Heights - Manhattan,Hamilton Heights,True,True
+117,Queens,Hammels/Arverne,Boro Zone,Hammels/Arverne - Queens,Hammels/Arverne,True,True
+118,Staten Island,Heartland Village/Todt Hill,Boro Zone,Heartland Village/Todt Hill - Staten Island,Heartland Village/Todt Hill,True,True
+119,Bronx,Highbridge,Boro Zone,Highbridge - Bronx,Highbridge,True,True
+120,Manhattan,Highbridge Park,Boro Zone,Highbridge Park - Manhattan,Highbridge Park,True,True
+121,Queens,Hillcrest/Pomonok,Boro Zone,Hillcrest/Pomonok - Queens,Hillcrest/Pomonok,True,True
+122,Queens,Hollis,Boro Zone,Hollis - Queens,Hollis,True,True
+123,Brooklyn,Homecrest,Boro Zone,Homecrest - Brooklyn,Homecrest,True,True
+124,Queens,Howard Beach,Boro Zone,Howard Beach - Queens,Howard Beach,True,True
+125,Manhattan,Hudson Sq,Yellow Zone,Hudson Sq - Manhattan,Hudson Sq,True,True
+126,Bronx,Hunts Point,Boro Zone,Hunts Point - Bronx,Hunts Point,True,True
+127,Manhattan,Inwood,Boro Zone,Inwood - Manhattan,Inwood,True,True
+128,Manhattan,Inwood Hill Park,Boro Zone,Inwood Hill Park - Manhattan,Inwood Hill Park,True,True
+129,Queens,Jackson Heights,Boro Zone,Jackson Heights - Queens,Jackson Heights,True,True
+130,Queens,Jamaica,Boro Zone,Jamaica - Queens,Jamaica,True,True
+131,Queens,Jamaica Estates,Boro Zone,Jamaica Estates - Queens,Jamaica Estates,True,True
+132,Queens,JFK Airport,Airports,JFK Airport - Queens,JFK Airport,True,True
+133,Brooklyn,Kensington,Boro Zone,Kensington - Brooklyn,Kensington,True,True
+134,Queens,Kew Gardens,Boro Zone,Kew Gardens - Queens,Kew Gardens,True,True
+135,Queens,Kew Gardens Hills,Boro Zone,Kew Gardens Hills - Queens,Kew Gardens Hills,True,True
+136,Bronx,Kingsbridge Heights,Boro Zone,Kingsbridge Heights - Bronx,Kingsbridge Heights,True,True
+137,Manhattan,Kips Bay,Yellow Zone,Kips Bay - Manhattan,Kips Bay,True,True
+138,Queens,LaGuardia Airport,Airports,LaGuardia Airport - Queens,LaGuardia Airport,True,True
+139,Queens,Laurelton,Boro Zone,Laurelton - Queens,Laurelton,True,True
+140,Manhattan,Lenox Hill East,Yellow Zone,Lenox Hill East - Manhattan,Lenox Hill East,True,True
+141,Manhattan,Lenox Hill West,Yellow Zone,Lenox Hill West - Manhattan,Lenox Hill West,True,True
+142,Manhattan,Lincoln Square East,Yellow Zone,Lincoln Square East - Manhattan,Lincoln Square East,True,True
+143,Manhattan,Lincoln Square West,Yellow Zone,Lincoln Square West - Manhattan,Lincoln Square West,True,True
+144,Manhattan,Little Italy/NoLiTa,Yellow Zone,Little Italy/NoLiTa - Manhattan,Little Italy/NoLiTa,True,True
+145,Queens,Long Island City/Hunters Point,Boro Zone,Long Island City/Hunters Point - Queens,Long Island City/Hunters Point,True,True
+146,Queens,Long Island City/Queens Plaza,Boro Zone,Long Island City/Queens Plaza - Queens,Long Island City/Queens Plaza,True,True
+147,Bronx,Longwood,Boro Zone,Longwood - Bronx,Longwood,True,True
+148,Manhattan,Lower East Side,Yellow Zone,Lower East Side - Manhattan,Lower East Side,True,True
+149,Brooklyn,Madison,Boro Zone,Madison - Brooklyn,Madison,True,True
+150,Brooklyn,Manhattan Beach,Boro Zone,Manhattan Beach - Brooklyn,Manhattan Beach,True,True
+151,Manhattan,Manhattan Valley,Yellow Zone,Manhattan Valley - Manhattan,Manhattan Valley,True,True
+152,Manhattan,Manhattanville,Boro Zone,Manhattanville - Manhattan,Manhattanville,True,True
+153,Manhattan,Marble Hill,Boro Zone,Marble Hill - Manhattan,Marble Hill,True,True
+154,Brooklyn,Marine Park/Floyd Bennett Field,Boro Zone,Marine Park/Floyd Bennett Field - Brooklyn,Marine Park/Floyd Bennett Field,True,True
+155,Brooklyn,Marine Park/Mill Basin,Boro Zone,Marine Park/Mill Basin - Brooklyn,Marine Park/Mill Basin,True,True
+156,Staten Island,Mariners Harbor,Boro Zone,Mariners Harbor - Staten Island,Mariners Harbor,True,True
+157,Queens,Maspeth,Boro Zone,Maspeth - Queens,Maspeth,True,True
+158,Manhattan,Meatpacking/West Village West,Yellow Zone,Meatpacking/West Village West - Manhattan,Meatpacking/West Village West,True,True
+159,Bronx,Melrose South,Boro Zone,Melrose South - Bronx,Melrose South,True,True
+160,Queens,Middle Village,Boro Zone,Middle Village - Queens,Middle Village,True,True
+161,Manhattan,Midtown Center,Yellow Zone,Midtown Center - Manhattan,Midtown Center,True,True
+162,Manhattan,Midtown East,Yellow Zone,Midtown East - Manhattan,Midtown East,True,True
+163,Manhattan,Midtown North,Yellow Zone,Midtown North - Manhattan,Midtown North,True,True
+164,Manhattan,Midtown South,Yellow Zone,Midtown South - Manhattan,Midtown South,True,True
+165,Brooklyn,Midwood,Boro Zone,Midwood - Brooklyn,Midwood,True,True
+166,Manhattan,Morningside Heights,Boro Zone,Morningside Heights - Manhattan,Morningside Heights,True,True
+167,Bronx,Morrisania/Melrose,Boro Zone,Morrisania/Melrose - Bronx,Morrisania/Melrose,True,True
+168,Bronx,Mott Haven/Port Morris,Boro Zone,Mott Haven/Port Morris - Bronx,Mott Haven/Port Morris,True,True
+169,Bronx,Mount Hope,Boro Zone,Mount Hope - Bronx,Mount Hope,True,True
+170,Manhattan,Murray Hill,Yellow Zone,Murray Hill - Manhattan,Murray Hill,True,True
+171,Queens,Murray Hill-Queens,Boro Zone,Murray Hill-Queens - Queens,Murray Hill-Queens,True,True
+172,Staten Island,New Dorp/Midland Beach,Boro Zone,New Dorp/Midland Beach - Staten Island,New Dorp/Midland Beach,True,True
+173,Queens,North Corona,Boro Zone,North Corona - Queens,North Corona,True,True
+174,Bronx,Norwood,Boro Zone,Norwood - Bronx,Norwood,True,True
+175,Queens,Oakland Gardens,Boro Zone,Oakland Gardens - Queens,Oakland Gardens,True,True
+176,Staten Island,Oakwood,Boro Zone,Oakwood - Staten Island,Oakwood,True,True
+177,Brooklyn,Ocean Hill,Boro Zone,Ocean Hill - Brooklyn,Ocean Hill,True,True
+178,Brooklyn,Ocean Parkway South,Boro Zone,Ocean Parkway South - Brooklyn,Ocean Parkway South,True,True
+179,Queens,Old Astoria,Boro Zone,Old Astoria - Queens,Old Astoria,True,True
+180,Queens,Ozone Park,Boro Zone,Ozone Park - Queens,Ozone Park,True,True
+181,Brooklyn,Park Slope,Boro Zone,Park Slope - Brooklyn,Park Slope,True,True
+182,Bronx,Parkchester,Boro Zone,Parkchester - Bronx,Parkchester,True,True
+183,Bronx,Pelham Bay,Boro Zone,Pelham Bay - Bronx,Pelham Bay,True,True
+184,Bronx,Pelham Bay Park,Boro Zone,Pelham Bay Park - Bronx,Pelham Bay Park,True,True
+185,Bronx,Pelham Parkway,Boro Zone,Pelham Parkway - Bronx,Pelham Parkway,True,True
+186,Manhattan,Penn Station/Madison Sq West,Yellow Zone,Penn Station/Madison Sq West - Manhattan,Penn Station/Madison Sq West,True,True
+187,Staten Island,Port Richmond,Boro Zone,Port Richmond - Staten Island,Port Richmond,True,True
+188,Brooklyn,Prospect-Lefferts Gardens,Boro Zone,Prospect-Lefferts Gardens - Brooklyn,Prospect-Lefferts Gardens,True,True
+189,Brooklyn,Prospect Heights,Boro Zone,Prospect Heights - Brooklyn,Prospect Heights,True,True
+190,Brooklyn,Prospect Park,Boro Zone,Prospect Park - Brooklyn,Prospect Park,True,True
+191,Queens,Queens Village,Boro Zone,Queens Village - Queens,Queens Village,True,True
+192,Queens,Queensboro Hill,Boro Zone,Queensboro Hill - Queens,Queensboro Hill,True,True
+193,Queens,Queensbridge/Ravenswood,Boro Zone,Queensbridge/Ravenswood - Queens,Queensbridge/Ravenswood,True,True
+194,Manhattan,Randalls Island,Yellow Zone,Randalls Island - Manhattan,Randalls Island,True,True
+195,Brooklyn,Red Hook,Boro Zone,Red Hook - Brooklyn,Red Hook,True,True
+196,Queens,Rego Park,Boro Zone,Rego Park - Queens,Rego Park,True,True
+197,Queens,Richmond Hill,Boro Zone,Richmond Hill - Queens,Richmond Hill,True,True
+198,Queens,Ridgewood,Boro Zone,Ridgewood - Queens,Ridgewood,True,True
+199,Bronx,Rikers Island,Boro Zone,Rikers Island - Bronx,Rikers Island,True,False
+200,Bronx,Riverdale/North Riverdale/Fieldston,Boro Zone,Riverdale/North Riverdale/Fieldston - Bronx,Riverdale/North Riverdale/Fieldston,True,True
+201,Queens,Rockaway Park,Boro Zone,Rockaway Park - Queens,Rockaway Park,True,True
+202,Manhattan,Roosevelt Island,Boro Zone,Roosevelt Island - Manhattan,Roosevelt Island,True,True
+203,Queens,Rosedale,Boro Zone,Rosedale - Queens,Rosedale,True,True
+204,Staten Island,Rossville/Woodrow,Boro Zone,Rossville/Woodrow - Staten Island,Rossville/Woodrow,True,True
+205,Queens,Saint Albans,Boro Zone,Saint Albans - Queens,Saint Albans,True,True
+206,Staten Island,Saint George/New Brighton,Boro Zone,Saint George/New Brighton - Staten Island,Saint George/New Brighton,True,True
+207,Queens,Saint Michaels Cemetery/Woodside,Boro Zone,Saint Michaels Cemetery/Woodside - Queens,Saint Michaels Cemetery/Woodside,True,True
+208,Bronx,Schuylerville/Edgewater Park,Boro Zone,Schuylerville/Edgewater Park - Bronx,Schuylerville/Edgewater Park,True,True
+209,Manhattan,Seaport,Yellow Zone,Seaport - Manhattan,Seaport,True,True
+210,Brooklyn,Sheepshead Bay,Boro Zone,Sheepshead Bay - Brooklyn,Sheepshead Bay,True,True
+211,Manhattan,SoHo,Yellow Zone,SoHo - Manhattan,SoHo,True,True
+212,Bronx,Soundview/Bruckner,Boro Zone,Soundview/Bruckner - Bronx,Soundview/Bruckner,True,True
+213,Bronx,Soundview/Castle Hill,Boro Zone,Soundview/Castle Hill - Bronx,Soundview/Castle Hill,True,True
+214,Staten Island,South Beach/Dongan Hills,Boro Zone,South Beach/Dongan Hills - Staten Island,South Beach/Dongan Hills,True,True
+215,Queens,South Jamaica,Boro Zone,South Jamaica - Queens,South Jamaica,True,True
+216,Queens,South Ozone Park,Boro Zone,South Ozone Park - Queens,South Ozone Park,True,True
+217,Brooklyn,South Williamsburg,Boro Zone,South Williamsburg - Brooklyn,South Williamsburg,True,True
+218,Queens,Springfield Gardens North,Boro Zone,Springfield Gardens North - Queens,Springfield Gardens North,True,True
+219,Queens,Springfield Gardens South,Boro Zone,Springfield Gardens South - Queens,Springfield Gardens South,True,True
+220,Bronx,Spuyten Duyvil/Kingsbridge,Boro Zone,Spuyten Duyvil/Kingsbridge - Bronx,Spuyten Duyvil/Kingsbridge,True,True
+221,Staten Island,Stapleton,Boro Zone,Stapleton - Staten Island,Stapleton,True,True
+222,Brooklyn,Starrett City,Boro Zone,Starrett City - Brooklyn,Starrett City,True,True
+223,Queens,Steinway,Boro Zone,Steinway - Queens,Steinway,True,True
+224,Manhattan,Stuy Town/Peter Cooper Village,Yellow Zone,Stuy Town/Peter Cooper Village - Manhattan,Stuy Town/Peter Cooper Village,True,True
+225,Brooklyn,Stuyvesant Heights,Boro Zone,Stuyvesant Heights - Brooklyn,Stuyvesant Heights,True,True
+226,Queens,Sunnyside,Boro Zone,Sunnyside - Queens,Sunnyside,True,True
+227,Brooklyn,Sunset Park East,Boro Zone,Sunset Park East - Brooklyn,Sunset Park East,True,True
+228,Brooklyn,Sunset Park West,Boro Zone,Sunset Park West - Brooklyn,Sunset Park West,True,True
+229,Manhattan,Sutton Place/Turtle Bay North,Yellow Zone,Sutton Place/Turtle Bay North - Manhattan,Sutton Place/Turtle Bay North,True,True
+230,Manhattan,Times Sq/Theatre District,Yellow Zone,Times Sq/Theatre District - Manhattan,Times Sq/Theatre District,True,True
+231,Manhattan,TriBeCa/Civic Center,Yellow Zone,TriBeCa/Civic Center - Manhattan,TriBeCa/Civic Center,True,True
+232,Manhattan,Two Bridges/Seward Park,Yellow Zone,Two Bridges/Seward Park - Manhattan,Two Bridges/Seward Park,True,True
+233,Manhattan,UN/Turtle Bay South,Yellow Zone,UN/Turtle Bay South - Manhattan,UN/Turtle Bay South,True,True
+234,Manhattan,Union Sq,Yellow Zone,Union Sq - Manhattan,Union Sq,True,True
+235,Bronx,University Heights/Morris Heights,Boro Zone,University Heights/Morris Heights - Bronx,University Heights/Morris Heights,True,True
+236,Manhattan,Upper East Side North,Yellow Zone,Upper East Side North - Manhattan,Upper East Side North,True,True
+237,Manhattan,Upper East Side South,Yellow Zone,Upper East Side South - Manhattan,Upper East Side South,True,True
+238,Manhattan,Upper West Side North,Yellow Zone,Upper West Side North - Manhattan,Upper West Side North,True,True
+239,Manhattan,Upper West Side South,Yellow Zone,Upper West Side South - Manhattan,Upper West Side South,True,True
+240,Bronx,Van Cortlandt Park,Boro Zone,Van Cortlandt Park - Bronx,Van Cortlandt Park,True,True
+241,Bronx,Van Cortlandt Village,Boro Zone,Van Cortlandt Village - Bronx,Van Cortlandt Village,True,True
+242,Bronx,Van Nest/Morris Park,Boro Zone,Van Nest/Morris Park - Bronx,Van Nest/Morris Park,True,True
+243,Manhattan,Washington Heights North,Boro Zone,Washington Heights North - Manhattan,Washington Heights North,True,True
+244,Manhattan,Washington Heights South,Boro Zone,Washington Heights South - Manhattan,Washington Heights South,True,True
+245,Staten Island,West Brighton,Boro Zone,West Brighton - Staten Island,West Brighton,True,True
+246,Manhattan,West Chelsea/Hudson Yards,Yellow Zone,West Chelsea/Hudson Yards - Manhattan,West Chelsea/Hudson Yards,True,True
+247,Bronx,West Concourse,Boro Zone,West Concourse - Bronx,West Concourse,True,True
+248,Bronx,West Farms/Bronx River,Boro Zone,West Farms/Bronx River - Bronx,West Farms/Bronx River,True,True
+249,Manhattan,West Village,Yellow Zone,West Village - Manhattan,West Village,True,True
+250,Bronx,Westchester Village/Unionport,Boro Zone,Westchester Village/Unionport - Bronx,Westchester Village/Unionport,True,True
+251,Staten Island,Westerleigh,Boro Zone,Westerleigh - Staten Island,Westerleigh,True,True
+252,Queens,Whitestone,Boro Zone,Whitestone - Queens,Whitestone,True,True
+253,Queens,Willets Point,Boro Zone,Willets Point - Queens,Willets Point,True,True
+254,Bronx,Williamsbridge/Olinville,Boro Zone,Williamsbridge/Olinville - Bronx,Williamsbridge/Olinville,True,True
+255,Brooklyn,Williamsburg (North Side),Boro Zone,Williamsburg (North Side) - Brooklyn,Williamsburg (North Side),True,True
+256,Brooklyn,Williamsburg (South Side),Boro Zone,Williamsburg (South Side) - Brooklyn,Williamsburg (South Side),True,True
+257,Brooklyn,Windsor Terrace,Boro Zone,Windsor Terrace - Brooklyn,Windsor Terrace,True,True
+258,Queens,Woodhaven,Boro Zone,Woodhaven - Queens,Woodhaven,True,True
+259,Bronx,Woodlawn/Wakefield,Boro Zone,Woodlawn/Wakefield - Bronx,Woodlawn/Wakefield,True,True
+260,Queens,Woodside,Boro Zone,Woodside - Queens,Woodside,True,True
+261,Manhattan,World Trade Center,Yellow Zone,World Trade Center - Manhattan,World Trade Center,True,True
+262,Manhattan,Yorkville East,Yellow Zone,Yorkville East - Manhattan,Yorkville East,True,True
+263,Manhattan,Yorkville West,Yellow Zone,Yorkville West - Manhattan,Yorkville West,True,True
+264,Unknown,Unknown,,Unknown - Unknown,Unknown,False,True
+265,Outside of NYC,Outside of NYC,,Outside of NYC - Outside of NYC,Outside of NYC,True,True
