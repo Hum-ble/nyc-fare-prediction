@@ -364,171 +364,170 @@ else:
         value=f"USD {predicted_fare:.2f}"
     )
 
-    # Trip summary
+    # Trip Summary: responsive mobile and desktop layout
     st.subheader("Trip Summary")
 
+    # Format the existing prediction inputs for display
+    from html import escape
+
+    def summary_field(label, value):
+        return (
+            '<div class="fare-summary-field">'
+            f'<div class="fare-summary-label">{escape(str(label))}</div>'
+            f'<div class="fare-summary-value">{escape(str(value))}</div>'
+            '</div>'
+        )
+
+    summary_date = summary["date"].strftime("%d %b %Y")
+    summary_time = summary["time"].strftime("%H:%M")
+    summary_distance = f'{summary["trip_miles"]:.2f} miles'
+    summary_duration = (
+        f'{summary["trip_minutes"]} min '
+        f'{summary["trip_seconds"]} sec'
+    )
+
+    summary_css = """
+    <style>
+        .fare-summary {
+            width: 100%;
+            font-family: inherit;
+            color: inherit;
+        }
+
+        .fare-summary-heading {
+            margin: 0.3rem 0 1rem;
+            text-align: center;
+            font-size: 1.05rem;
+            font-weight: 650;
+        }
+
+        .fare-summary-heading:not(:first-child) {
+            margin-top: 1.5rem;
+        }
+
+        .fare-summary-grid {
+            display: grid;
+            gap: 1rem 1.5rem;
+        }
+
+        .fare-summary-info,
+        .fare-summary-services {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+
+        .fare-summary-route,
+        .fare-summary-details {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .fare-summary-field {
+            min-width: 0;
+        }
+
+        .fare-summary-label {
+            color: #8f8f98;
+            font-size: 0.88rem;
+            margin-bottom: 0.35rem;
+        }
+
+        .fare-summary-value {
+            font-size: 1rem;
+            font-weight: 600;
+            overflow-wrap: anywhere;
+        }
+
+        /* Preserve the desktop column alignment */
+        .fare-summary-info .fare-summary-field:nth-child(2),
+        .fare-summary-services .fare-summary-field:nth-child(2) {
+            text-align: center;
+        }
+
+        .fare-summary-info .fare-summary-field:last-child,
+        .fare-summary-services .fare-summary-field:last-child,
+        .fare-summary-route .fare-summary-field:last-child,
+        .fare-summary-details .fare-summary-field:last-child {
+            text-align: right;
+        }
+
+        /* Compact layout for phones */
+        @media (max-width: 640px) {
+            .fare-summary-grid {
+                grid-template-columns: 1fr;
+                gap: 0;
+            }
+
+            .fare-summary-field {
+                display: flex;
+                justify-content: space-between;
+                align-items: baseline;
+                gap: 1rem;
+                padding: 0.65rem 0;
+                border-bottom: 1px solid rgba(128, 128, 128, 0.20);
+                text-align: left !important;
+            }
+
+            .fare-summary-label {
+                margin-bottom: 0;
+                flex-shrink: 0;
+            }
+
+            .fare-summary-value {
+                text-align: right;
+                font-size: 0.95rem;
+            }
+
+            .fare-summary-route .fare-summary-field {
+                display: block;
+            }
+
+            .fare-summary-route .fare-summary-value {
+                text-align: left;
+                margin-top: 0.3rem;
+            }
+
+            .fare-summary-heading {
+                margin: 0.3rem 0 0.6rem;
+            }
+
+            .fare-summary-heading:not(:first-child) {
+                margin-top: 1.1rem;
+            }
+        }
+    </style>
+    """
+
+    summary_html = f"""
+    <div class="fare-summary">
+        <div class="fare-summary-heading">Trip Information</div>
+        <div class="fare-summary-grid fare-summary-info">
+            {summary_field("Platform", summary["platform"])}
+            {summary_field("Date", summary_date)}
+            {summary_field("Time", summary_time)}
+        </div>
+
+        <div class="fare-summary-heading">Route</div>
+        <div class="fare-summary-grid fare-summary-route">
+            {summary_field("Pickup", summary["pickup"])}
+            {summary_field("Drop-off", summary["dropoff"])}
+        </div>
+
+        <div class="fare-summary-grid fare-summary-details"
+             style="margin-top: 1rem;">
+            {summary_field("Distance", summary_distance)}
+            {summary_field("Duration", summary_duration)}
+        </div>
+
+        <div class="fare-summary-heading">Service Requests</div>
+        <div class="fare-summary-grid fare-summary-services">
+            {summary_field("Shared ride", summary["shared_request"])}
+            {summary_field("WAV request", summary["wav_request"])}
+            {summary_field("Access-A-Ride", summary["access_a_ride"])}
+        </div>
+    </div>
+    """
+
     with st.container(border=True):
-
-        # Trip information heading
-        st.markdown(
-            """
-            <div style="text-align:center; font-weight:600;">
-                Trip Information
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
-
-        info1, info2, info3 = st.columns(3)
-
-        with info1:
-            st.markdown(
-                f"""
-                <div style="text-align:left;">
-                    <span style="color:#8f8f98;">Platform</span>
-                    <br><br>
-                    <strong>{summary['platform']}</strong>
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
-
-        with info2:
-            st.markdown(
-                f"""
-                <div style="text-align:center;">
-                    <span style="color:#8f8f98;">Date</span>
-                    <br><br>
-                    <strong>{summary['date'].strftime('%d %b %Y')}</strong>
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
-
-        with info3:
-            st.markdown(
-                f"""
-                <div style="text-align:right;">
-                    <span style="color:#8f8f98;">Time</span>
-                    <br><br>
-                    <strong>{summary['time'].strftime('%H:%M')}</strong>
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
-
-        # Route heading
-        st.markdown(
-            """
-            <div style="text-align:center; font-weight:600; margin-top:1rem;">
-                Route
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
-
-        route1, route2, route3 = st.columns(3)
-
-        with route1:
-            st.markdown(
-                f"""
-                <div style="text-align:left;">
-                    <span style="color:#8f8f98;">Pickup</span>
-                    <br><br>
-                    <strong>{summary['pickup']}</strong>
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
-
-        with route3:
-            st.markdown(
-                f"""
-                <div style="text-align:right;">
-                    <span style="color:#8f8f98;">Drop-off</span>
-                    <br><br>
-                    <strong>{summary['dropoff']}</strong>
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
-
-        detail1, detail2, detail3 = st.columns(3)
-
-        with detail1:
-            st.markdown(
-                f"""
-                <div style="text-align:left; margin-top:1rem;">
-                    <span style="color:#8f8f98;">Distance</span>
-                    <br><br>
-                    <strong>{summary['trip_miles']:.2f} miles</strong>
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
-
-        with detail3:
-            st.markdown(
-                f"""
-                <div style="text-align:right; margin-top:1rem;">
-                    <span style="color:#8f8f98;">Duration</span>
-                    <br><br>
-                    <strong>
-                        {summary['trip_minutes']} min
-                        {summary['trip_seconds']} sec
-                    </strong>
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
-
-        # Service request heading
-        st.markdown(
-            """
-            <div style="text-align:center; font-weight:600; margin-top:1rem;">
-                Service Requests
-            </div>
-            """,
-            unsafe_allow_html=True
-        )
-
-        service1, service2, service3 = st.columns(3)
-
-        with service1:
-            st.markdown(
-                f"""
-                <div style="text-align:left;">
-                    <span style="color:#8f8f98;">Shared ride</span>
-                    <br><br>
-                    <strong>{summary['shared_request']}</strong>
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
-
-        with service2:
-            st.markdown(
-                f"""
-                <div style="text-align:center;">
-                    <span style="color:#8f8f98;">WAV request</span>
-                    <br><br>
-                    <strong>{summary['wav_request']}</strong>
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
-
-        with service3:
-            st.markdown(
-                f"""
-                <div style="text-align:right;">
-                    <span style="color:#8f8f98;">Access-A-Ride</span>
-                    <br><br>
-                    <strong>{summary['access_a_ride']}</strong>
-                </div>
-                """,
-                unsafe_allow_html=True
-            )
+        st.html(summary_css + summary_html)
 
     # SHAP explanation
     st.subheader(
